@@ -24,7 +24,7 @@ def main(argv):
 
    for opt , arg in opts:
        if opt == '-h':
-           print ('edlcopy.py -i <inputfile>')
+           print ('edlcopy.py -i <inputfile> -s <sourcedirectory> -o <outputdirectory>')
            sys.exit()
        elif opt in ("-i","--ifile"):
            input_edl = os.path.normpath(arg)
