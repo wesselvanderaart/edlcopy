@@ -48,8 +48,8 @@ def main(argv):
        print (task[0])
 
    print ("did not find the following files:")
-   for file_unfound in files_not_found:
-       print (file_unfound)
+   for file_not_found in files_not_found:
+       print (file_not_found)
 
    accumulated_size = copytask_accumulated_size(file_queue)
    print(accumulated_size)
